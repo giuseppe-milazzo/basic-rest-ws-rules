@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="ERROR">
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{dd-MM-yyyy HH:mm:ss.SSS} [%-5level] [%t] %c: %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.mdev" level="debug"/>
+        <!-- <Logger name="org.springframework.web.filter.CommonsRequestLoggingFilter" level="debug"/> -->
+        <Root level="info">
+            <AppenderRef ref="console"/>
+        </Root>
+    </Loggers>
+</Configuration>
