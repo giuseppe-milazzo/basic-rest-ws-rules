@@ -8,3 +8,4 @@ Questo progetto mostra come implementare un servizio rest. Vengono affrontati:
 * gestione eccezioni
 * connessione al db (H2)
 * unit test
+* sicurezza
